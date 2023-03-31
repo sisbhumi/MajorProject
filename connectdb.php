@@ -2,7 +2,7 @@
 	function openConnection(){
 		$host="localhost";
 		$user="root";
-		$pw="root";
+		$pw="";
 		$db="supplychain";
 
 		$con = new mysqli($host, $user, $pw,$db) or die("Connect failed: %s\n". $conn -> error);
@@ -13,4 +13,3 @@
 		$con -> close();
 	}
 ?>
-<!-- Developed by Anubhav Dutta : https://www.linkedin.com/in/iamanubhavdutta/ -->

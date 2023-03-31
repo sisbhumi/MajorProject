@@ -41,5 +41,8 @@
     "build": "grunt build",
     "ci": "grunt ci",
     "test": "grunt test"
+  },
+  "dependencies": {
+    "qrious": "^4.0.2"
   }
 }
